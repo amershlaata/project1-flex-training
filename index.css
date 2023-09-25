@@ -1,0 +1,204 @@
+.main-container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 800px ;
+    background: url(BG\ IMAGE.png);
+    
+}
+.first-item >h1{
+    
+    color: white;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64em;
+   
+
+   
+}
+.first-item > h2{
+    color: white;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.37em;
+    text-align: center;
+
+}
+
+.first-item >button{
+
+    background-color: yellow;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.37em;
+    text-align: center;
+    width: 172px;
+    height: 44px;
+   
+}
+
+.second-item{
+    
+    height: 600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-item >img{
+    width: 153px;
+    height: 80px;
+    
+
+}
+
+.second-item >p{
+
+    font-family: Raleway;
+    left: 634px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    
+
+}
+
+.third-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+     height: 929px;
+    background-color:#F4F4F4;
+    
+
+}
+
+.third-item >img{
+    padding-top: 80px;
+}
+
+.third-item >h1{
+    padding-top: 50px;
+    color: black;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.37em;
+  
+}
+
+.third-item >p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+   
+}
+
+.service-container
+{
+    
+   margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+}
+
+.service-item{
+
+   margin: 10px;
+    height: 353px;
+    width:  274px;
+    text-align: center;
+    background-color: white;
+   
+
+}
+.service-item >img{
+    margin-top: 20px;
+    width: 77px;
+    height: 75px;
+  
+   
+    
+
+}
+
+.service-item >h1{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.25em;
+  
+
+}
+.service-item >p{
+
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+   
+
+}
+
+
+.languages-container{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 166px;
+   
+}
+
+.languages-item{
+    padding-left: 10px;
+    background: white;
+    width: 274px;
+    height: 166px;
+    margin: 10px;
+
+}
+
+.languages-item >h4{
+
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    
+}
+
+.rectangle{
+    background-color: yellow;
+    width: 207px;
+    height: 5px;
+  
+
+}
